@@ -56,5 +56,5 @@ export async function action({ request }: ActionFunctionArgs) {
         return json({ errors });
     }
 
-    return redirect("/dashboard");
+    return redirect("/welcome");
 }
